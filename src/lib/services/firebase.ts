@@ -20,7 +20,7 @@ declare global {
 const demoConfig = {
   apiKey: "AIzaSyBbDbGOMCWJeqKRA0uIAoe5Uw6dKIitsnc",
   authDomain: "rental-dashboard-9135b.firebaseapp.com",
-  projectId: rental - dashboard - 9135b"",
+  projectId: "rental-dashboard-9135b",
   storageBucket: "rental-dashboard-9135b.firebasestorage.app",
   messagingSenderId: "228647784349",
   appId: "1:228647784349:web:c77c46a02f8f2643af2974"
