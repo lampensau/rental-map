@@ -13,10 +13,13 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID || ''
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
-export const auth = getAuth(app);
+// Only initialize Firebase in browser environment
+const app = typeof window !== 'undefined'
+  ? initializeApp(firebaseConfig)
+  : null;
+
+export const db = app ? getFirestore(app) : null;
+export const auth = app ? getAuth(app) : null;
 
 // Helper to check if Firebase is configured
 export function isFirebaseConfigured(): boolean {
