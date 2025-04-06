@@ -36,6 +36,15 @@ jobs:
           VITE_FIREBASE_APP_ID: ${{ secrets.VITE_FIREBASE_APP_ID }}
           NODE_ENV: production
 
+      - name: Create runtime config
+        run: |
+          echo 'window.ENV = {' > build/_app/env-config.js
+          echo '  VITE_FIREBASE_API_KEY: "${{ secrets.VITE_FIREBASE_API_KEY }}",' >> build/_app/env-config.js
+          echo '  VITE_FIREBASE_AUTH_DOMAIN: "${{ secrets.VITE_FIREBASE_AUTH_DOMAIN }}",' >> build/_app/env-config.js
+          # Add other variables
+          echo '};' >> build/_app/env-config.js
+        shell: bash
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
