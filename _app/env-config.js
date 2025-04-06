@@ -1,0 +1,4 @@
+window.ENV = {
+  VITE_FIREBASE_API_KEY: "",
+  VITE_FIREBASE_AUTH_DOMAIN: "",
+};
