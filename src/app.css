@@ -1,0 +1,312 @@
+@import 'tailwindcss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Map should take full screen */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Fix for Leaflet map marker icon */
+.leaflet-default-icon-path {
+  background-image: url('https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png');
+}
+
+.leaflet-default-shadow-path {
+  background-image: url('https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png');
+}
+
+/* Make map marker pop-ups beautiful */
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  width: auto !important;
+}
+
+/* Make popups match the design in images */
+.map-popup {
+  padding: 12px;
+}
+
+/* Fix for search results dropdown */
+.search-results-container {
+  max-height: 60vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  /* Ensure consistent scrollbar appearance */
+  z-index: 905 !important;
+  /* Higher than Leaflet popups */
+}
+
+/* Force rounded corners on dropdown container even with scrollbar */
+.search-results-container:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-bottom-right-radius: 0.75rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Prevent overlap of scrollbar with corner decoration */
+.search-results-container::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Prevent nesting of scrollable areas that can cause double scrollbars */
+.search-results-container .search-results-container {
+  max-height: none;
+  overflow: visible;
+}
+
+/* Prevent default focus outline for search elements for a cleaner look */
+.search-control input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #e5e7eb;
+}
+
+/* Modern scrollbar styles */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(155, 155, 155, 0.7);
+}
+
+/* Responsive Design Styles */
+/* Transition for smoother responsive changes */
+.mobile-filter-panel {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-height: 27vh;
+  z-index: 900 !important;
+  /* Higher than Leaflet popups */
+}
+
+.mobile-filter-panel>div:last-child {
+  overflow-y: auto;
+  /* Scrollable content area */
+  flex-grow: 1;
+  padding: 10px;
+}
+
+/* Sticky header and arrow */
+.filter-panel-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 902 !important;
+  /* Above the content and the arrow */
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px;
+}
+
+/* Make the arrow visible */
+.mobile-filter-panel::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+  z-index: 901 !important;
+  /* Ensure it's visible */
+}
+
+/* FAB styles */
+.filter-fab {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filter-fab:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.filter-fab:active {
+  transform: scale(0.95);
+}
+
+/* Badge styles for FAB indicators */
+.filter-badge {
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 940px) {
+
+  /* Limit height of search results to share space with filter panels */
+  .search-results-container {
+    max-height: 45vh;
+    z-index: 30;
+    /* Higher than filter panels */
+  }
+
+  /* Make sure elements don't overlap with map controls */
+  .leaflet-bottom.leaflet-right {
+    bottom: 36px !important;
+    /* Adjust to prevent overlap with FABs */
+  }
+
+  .leaflet-bottom.leaflet-left {
+    bottom: 20px !important;
+    /* Adjust attribution control */
+  }
+
+  /* Position the arrow for the product filter */
+  .product-panel::after {
+    left: 28px;
+  }
+
+  /* Position the arrow for the manufacturer filter */
+  .manufacturer-panel::after {
+    left: 24px;
+  }
+}
+
+/* Update Leaflet popup styles to work better with our filter panels */
+.leaflet-popup {
+  z-index: 600 !important;
+  /* Higher than base map but lower than our controls */
+}
+
+/* Make sure elements don't overlap with map controls */
+.leaflet-bottom.leaflet-right {
+  bottom: 36px !important;
+  /* Adjust to prevent overlap with FABs */
+}
+
+.leaflet-bottom.leaflet-left {
+  bottom: 20px !important;
+  /* Adjust attribution control */
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  top: 7.2px;
+  right: 6.5px;
+}
+
+/* Position adjustments for filter panels */
+.manufacturer-panel {
+  left: 16px;
+}
+
+.product-panel {
+  left: 16px;
+}
+
+/* Adjust arrow positions for each panel */
+.manufacturer-panel::after {
+  left: 15px;
+}
+
+.product-panel::after {
+  left: 75px;
+}
+
+/* Fixed height for filter controls to prevent vertical wiggling */
+.filter-fab,
+.manufacturer-dropdown>button,
+.product-dropdown>button {
+  height: 40px !important;
+  /* Fixed height */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  /* Ensure padding doesn't add to height */
+}
+
+/* Ensure consistent button heights for filter headers */
+.filter-panel-header button {
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Enhanced Leaflet popup styling */
+.leaflet-popup-close-button {
+  padding: 4px !important;
+  font-size: 16px !important;
+  width: 20px !important;
+  height: 20px !important;
+  right: 15px !important;
+  top: 9.5px !important;
+  color: #666 !important;
+  font-family: Arial, sans-serif !important;
+  font-weight: bold !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 18px !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #333 !important;
+  background-color: #f5f5f5 !important;
+}
+
+/* Ensure the popup content has consistent styling */
+.map-popup {
+  margin-top: 5px !important;
+  min-width: 280px !important;
+  max-width: 350px !important;
+}
+
+/* Ensure popup content wrapper has consistent styling */
+.custom-popup .leaflet-popup-content-wrapper {
+  border-radius: 8px !important;
+  padding: 0 !important;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2) !important;
+}
+
+.custom-popup .leaflet-popup-content {
+  margin: 10px !important;
+  margin-bottom: 3px !important;
+  line-height: 1.5 !important;
+  overflow: visible !important;
+}
+
+/* Ensure search input maintains consistent height */
+.search-control input {
+  height: 2.5rem !important;
+  box-sizing: border-box !important;
+}

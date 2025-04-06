@@ -1,0 +1,874 @@
+[
+  {
+    "id": "K1001",
+    "name": "BerlinRent Eventtechnik GmbH",
+    "address": "Friedrichstraße 123",
+    "city": "Berlin",
+    "postalCode": "10117",
+    "country": "DE",
+    "website": "https://berlinrent-eventtechnik.de",
+    "phone": "+49 30 12345678",
+    "email": "info@berlinrent-eventtechnik.de",
+    "inventory": [
+      {
+        "productId": "511-5083-3310",
+        "productName": "Stagemaker SL10 508 m1 A20 500 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 5
+      },
+      {
+        "productId": "559-3065-0030",
+        "productName": "Green-GO BPX Beltpack",
+        "manufacturerName": "Green-GO",
+        "quantity": 12
+      },
+      {
+        "productId": "505-4001-0200",
+        "productName": "MDG Atmosphere ATMe",
+        "manufacturerName": "MDG",
+        "quantity": 3
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 8
+      },
+      {
+        "productId": "599-3000-0051",
+        "productName": "Green Hippo Hippotizer Nevis+",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "K1002",
+    "name": "AV Solutions Düsseldorf",
+    "address": "Königsallee 60",
+    "city": "Düsseldorf",
+    "postalCode": "40212",
+    "country": "DE",
+    "website": "https://avsolutions-duesseldorf.de",
+    "phone": "+49 211 9876543",
+    "email": "kontakt@avsolutions-duesseldorf.de",
+    "inventory": [
+      {
+        "productId": "511-5083-3331",
+        "productName": "Stagemaker SL10 1004 m2 A20 1.000 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 8
+      },
+      {
+        "productId": "559-3065-0135",
+        "productName": "Green-GO MCX 19\" Rackstation, 1HE",
+        "manufacturerName": "Green-GO",
+        "quantity": 4
+      },
+      {
+        "productId": "505-4002-0780",
+        "productName": "MDG Me8",
+        "manufacturerName": "MDG",
+        "quantity": 2
+      },
+      {
+        "productId": "505-4090-1000",
+        "productName": "MDG theFAN",
+        "manufacturerName": "MDG",
+        "quantity": 6
+      },
+      {
+        "productId": "596-8002-0500",
+        "productName": "Theatrixx Konverter 4-fach DP1.2 auf Quad 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "K1003",
+    "name": "Hanseatic EventTech GmbH",
+    "address": "Neuer Wall 50",
+    "city": "Hamburg",
+    "postalCode": "20354",
+    "country": "DE",
+    "website": "https://hanseatic-eventtech.de",
+    "phone": "+49 40 3344556",
+    "email": "service@hanseatic-eventtech.de",
+    "inventory": [
+      {
+        "productId": "511-5081-0237",
+        "productName": "SR1 324 M1-A20",
+        "manufacturerName": "Stagemaker",
+        "quantity": 10
+      },
+      {
+        "productId": "559-3065-0145",
+        "productName": "Green-GO MCXD Tischstation",
+        "manufacturerName": "Green-GO",
+        "quantity": 5
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 3
+      },
+      {
+        "productId": "596-8002-1070",
+        "productName": "Theatrixx Modulsystem Konverter 12G-SDI auf HDMI 2.0",
+        "manufacturerName": "Theatrixx",
+        "quantity": 6
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": "K1004",
+    "name": "München Rental & Services",
+    "address": "Maximilianstraße 18",
+    "city": "München",
+    "postalCode": "80539",
+    "country": "DE",
+    "website": "https://muenchen-rental-services.de",
+    "phone": "+49 89 98765432",
+    "email": "info@muenchen-rental-services.de",
+    "inventory": [
+      {
+        "productId": "498-3200-0065",
+        "productName": "SRS DC6-5-JR 6 Kanal DMX-Lichtstellpult",
+        "manufacturerName": "SRS",
+        "quantity": 7
+      },
+      {
+        "productId": "505-4002-0720",
+        "productName": "MDG Me2",
+        "manufacturerName": "MDG",
+        "quantity": 3
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 12
+      },
+      {
+        "productId": "596-8002-0102",
+        "productName": "Theatrixx xVision Konverter Glasfaser S2 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 15
+      }
+    ]
+  },
+  {
+    "id": "K1005",
+    "name": "StageDesign Berlin",
+    "address": "Kurfürstendamm 234",
+    "city": "Berlin",
+    "postalCode": "10719",
+    "country": "DE",
+    "website": "https://stagedesign-berlin.de",
+    "phone": "+49 30 87654321",
+    "email": "kontakt@stagedesign-berlin.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0220",
+        "productName": "Green-GO STRIDE Antenne",
+        "manufacturerName": "Green-GO",
+        "quantity": 15
+      },
+      {
+        "productId": "559-3065-0906",
+        "productName": "Green-GO Si4WR 4-Draht Interface",
+        "manufacturerName": "Green-GO",
+        "quantity": 6
+      },
+      {
+        "productId": "511-5083-3310",
+        "productName": "Stagemaker SL10 508 m1 A20 500 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 2
+      },
+      {
+        "productId": "599-3000-0051",
+        "productName": "Green Hippo Hippotizer Nevis+",
+        "manufacturerName": "Green Hippo",
+        "quantity": 4
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "id": "K1006",
+    "name": "Frankfurt Events & Technology",
+    "address": "Zeil 106",
+    "city": "Frankfurt",
+    "postalCode": "60313",
+    "country": "DE",
+    "website": "https://frankfurt-events-technology.de",
+    "phone": "+49 69 12345678",
+    "email": "info@frankfurt-events-technology.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0201",
+        "productName": "Green-GO WBPX Wireless Beltpack",
+        "manufacturerName": "Green-GO",
+        "quantity": 20
+      },
+      {
+        "productId": "505-4001-0200",
+        "productName": "MDG Atmosphere ATMe",
+        "manufacturerName": "MDG",
+        "quantity": 4
+      },
+      {
+        "productId": "596-8002-0103",
+        "productName": "Theatrixx xVision Konverter Glasfaser S3 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 6
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": "K1007",
+    "name": "KölnTech Veranstaltungstechnik",
+    "address": "Steinstraße 20",
+    "city": "Köln",
+    "postalCode": "50667",
+    "country": "DE",
+    "website": "https://koelntech-veranstaltungstechnik.de",
+    "phone": "+49 221 3456789",
+    "email": "kontakt@koelntech-veranstaltungstechnik.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0210",
+        "productName": "Green-GO WAA Antenne",
+        "manufacturerName": "Green-GO",
+        "quantity": 8
+      },
+      {
+        "productId": "511-5083-3331",
+        "productName": "Stagemaker SL10 1004 m2 A20 1.000 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 3
+      },
+      {
+        "productId": "596-8002-0500",
+        "productName": "Theatrixx Konverter 4-fach DP1.2 auf Quad 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 5
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 6
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 25
+      }
+    ]
+  },
+  {
+    "id": "K1008",
+    "name": "MedienTech Stuttgart GmbH",
+    "address": "Königstraße 1a",
+    "city": "Stuttgart",
+    "postalCode": "70173",
+    "country": "DE",
+    "website": "https://medientech-stuttgart.de",
+    "phone": "+49 711 9876543",
+    "email": "info@medientech-stuttgart.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0950",
+        "productName": "Green-GO BCN BEACON Signalleuchte",
+        "manufacturerName": "Green-GO",
+        "quantity": 10
+      },
+      {
+        "productId": "505-4002-0780",
+        "productName": "MDG Me8",
+        "manufacturerName": "MDG",
+        "quantity": 2
+      },
+      {
+        "productId": "596-8002-1070",
+        "productName": "Theatrixx Modulsystem Konverter 12G-SDI auf HDMI 2.0",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "599-3000-0051",
+        "productName": "Green Hippo Hippotizer Nevis+",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 18
+      }
+    ]
+  },
+  {
+    "id": "K1009",
+    "name": "AV-Professional Nürnberg",
+    "address": "Ludwigstraße 8",
+    "city": "Nürnberg",
+    "postalCode": "90403",
+    "country": "DE",
+    "website": "https://av-professional-nuernberg.de",
+    "phone": "+49 911 8765432",
+    "email": "kontakt@av-professional-nuernberg.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0150",
+        "productName": "Green-GO MCXDEXT 24 Kanal Tischerweiterung",
+        "manufacturerName": "Green-GO",
+        "quantity": 4
+      },
+      {
+        "productId": "511-5081-0237",
+        "productName": "SR1 324 M1-A20",
+        "manufacturerName": "Stagemaker",
+        "quantity": 7
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 6
+      },
+      {
+        "productId": "596-8002-0102",
+        "productName": "Theatrixx xVision Konverter Glasfaser S2 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 3
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "K1010",
+    "name": "Hamburg MediaRent GmbH",
+    "address": "Große Bleichen 23",
+    "city": "Hamburg",
+    "postalCode": "20354",
+    "country": "DE",
+    "website": "https://hamburg-mediarent.de",
+    "phone": "+49 40 5566778",
+    "email": "info@hamburg-mediarent.de",
+    "inventory": [
+      {
+        "productId": "498-3200-0065",
+        "productName": "SRS DC6-5-JR 6 Kanal DMX-Lichtstellpult",
+        "manufacturerName": "SRS",
+        "quantity": 9
+      },
+      {
+        "productId": "559-3065-0915",
+        "productName": "Green-GO BRIDGEX 19\" Netzwerk-Interface",
+        "manufacturerName": "Green-GO",
+        "quantity": 3
+      },
+      {
+        "productId": "505-4002-0720",
+        "productName": "MDG Me2",
+        "manufacturerName": "MDG",
+        "quantity": 5
+      },
+      {
+        "productId": "596-8002-0103",
+        "productName": "Theatrixx xVision Konverter Glasfaser S3 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 4
+      }
+    ]
+  },
+  {
+    "id": "K1011",
+    "name": "EventSysteme München",
+    "address": "Sendlinger Straße 42",
+    "city": "München",
+    "postalCode": "80331",
+    "country": "DE",
+    "website": "https://eventsysteme-muenchen.de",
+    "phone": "+49 89 1122334",
+    "email": "kontakt@eventsysteme-muenchen.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0135",
+        "productName": "Green-GO MCX 19\" Rackstation, 1HE",
+        "manufacturerName": "Green-GO",
+        "quantity": 6
+      },
+      {
+        "productId": "505-4090-1000",
+        "productName": "MDG theFAN",
+        "manufacturerName": "MDG",
+        "quantity": 8
+      },
+      {
+        "productId": "596-8002-0500",
+        "productName": "Theatrixx Konverter 4-fach DP1.2 auf Quad 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 3
+      },
+      {
+        "productId": "599-3000-0051",
+        "productName": "Green Hippo Hippotizer Nevis+",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 30
+      }
+    ]
+  },
+  {
+    "id": "K1012",
+    "name": "BerlinMedia Rental & Service",
+    "address": "Potsdamer Platz 1",
+    "city": "Berlin",
+    "postalCode": "10785",
+    "country": "DE",
+    "website": "https://berlinmedia-rental.de",
+    "phone": "+49 30 66778899",
+    "email": "info@berlinmedia-rental.de",
+    "inventory": [
+      {
+        "productId": "511-5083-3310",
+        "productName": "Stagemaker SL10 508 m1 A20 500 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 12
+      },
+      {
+        "productId": "559-3065-0030",
+        "productName": "Green-GO BPX Beltpack",
+        "manufacturerName": "Green-GO",
+        "quantity": 25
+      },
+      {
+        "productId": "505-4001-0200",
+        "productName": "MDG Atmosphere ATMe",
+        "manufacturerName": "MDG",
+        "quantity": 3
+      },
+      {
+        "productId": "596-8002-1070",
+        "productName": "Theatrixx Modulsystem Konverter 12G-SDI auf HDMI 2.0",
+        "manufacturerName": "Theatrixx",
+        "quantity": 5
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 16
+      }
+    ]
+  },
+  {
+    "id": "K1013",
+    "name": "EventTechnik Düsseldorf GmbH",
+    "address": "Schadowstraße 11",
+    "city": "Düsseldorf",
+    "postalCode": "40212",
+    "country": "DE",
+    "website": "https://eventtechnik-duesseldorf.de",
+    "phone": "+49 211 2233445",
+    "email": "kontakt@eventtechnik-duesseldorf.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0145",
+        "productName": "Green-GO MCXD Tischstation",
+        "manufacturerName": "Green-GO",
+        "quantity": 7
+      },
+      {
+        "productId": "511-5083-3331",
+        "productName": "Stagemaker SL10 1004 m2 A20 1.000 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 4
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      },
+      {
+        "productId": "596-8002-0102",
+        "productName": "Theatrixx xVision Konverter Glasfaser S2 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 6
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 22
+      }
+    ]
+  },
+  {
+    "id": "K1014",
+    "name": "Hamburg EventTechnik AG",
+    "address": "Jungfernstieg 30",
+    "city": "Hamburg",
+    "postalCode": "20354",
+    "country": "DE",
+    "website": "https://hamburg-eventtechnik.de",
+    "phone": "+49 40 3344556",
+    "email": "info@hamburg-eventtechnik.de",
+    "inventory": [
+      {
+        "productId": "498-3200-0065",
+        "productName": "SRS DC6-5-JR 6 Kanal DMX-Lichtstellpult",
+        "manufacturerName": "SRS",
+        "quantity": 5
+      },
+      {
+        "productId": "559-3065-0220",
+        "productName": "Green-GO STRIDE Antenne",
+        "manufacturerName": "Green-GO",
+        "quantity": 9
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 8
+      },
+      {
+        "productId": "596-8002-0103",
+        "productName": "Theatrixx xVision Konverter Glasfaser S3 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 15
+      }
+    ]
+  },
+  {
+    "id": "K1015",
+    "name": "EventSolutions München",
+    "address": "Schillerstraße 5",
+    "city": "München",
+    "postalCode": "80336",
+    "country": "DE",
+    "website": "https://eventsolutions-muenchen.de",
+    "phone": "+49 89 9988776",
+    "email": "kontakt@eventsolutions-muenchen.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0906",
+        "productName": "Green-GO Si4WR 4-Draht Interface",
+        "manufacturerName": "Green-GO",
+        "quantity": 6
+      },
+      {
+        "productId": "505-4002-0780",
+        "productName": "MDG Me8",
+        "manufacturerName": "MDG",
+        "quantity": 2
+      },
+      {
+        "productId": "511-5081-0237",
+        "productName": "SR1 324 M1-A20",
+        "manufacturerName": "Stagemaker",
+        "quantity": 3
+      },
+      {
+        "productId": "596-8002-0500",
+        "productName": "Theatrixx Konverter 4-fach DP1.2 auf Quad 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 4
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "id": "K1016",
+    "name": "MediaTechnik Frankfurt",
+    "address": "Kaiserstraße 13",
+    "city": "Frankfurt",
+    "postalCode": "60311",
+    "country": "DE",
+    "website": "https://mediatechnik-frankfurt.de",
+    "phone": "+49 69 8877665",
+    "email": "info@mediatechnik-frankfurt.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0201",
+        "productName": "Green-GO WBPX Wireless Beltpack",
+        "manufacturerName": "Green-GO",
+        "quantity": 15
+      },
+      {
+        "productId": "505-4002-0720",
+        "productName": "MDG Me2",
+        "manufacturerName": "MDG",
+        "quantity": 4
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 10
+      },
+      {
+        "productId": "596-8002-1070",
+        "productName": "Theatrixx Modulsystem Konverter 12G-SDI auf HDMI 2.0",
+        "manufacturerName": "Theatrixx",
+        "quantity": 6
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 25
+      }
+    ]
+  },
+  {
+    "id": "K1017",
+    "name": "KölnEvent Technik GmbH",
+    "address": "Hohenzollernring 56",
+    "city": "Köln",
+    "postalCode": "50672",
+    "country": "DE",
+    "website": "https://koelnevent-technik.de",
+    "phone": "+49 221 8899776",
+    "email": "kontakt@koelnevent-technik.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0210",
+        "productName": "Green-GO WAA Antenne",
+        "manufacturerName": "Green-GO",
+        "quantity": 7
+      },
+      {
+        "productId": "505-4090-1000",
+        "productName": "MDG theFAN",
+        "manufacturerName": "MDG",
+        "quantity": 3
+      },
+      {
+        "productId": "599-3000-0051",
+        "productName": "Green Hippo Hippotizer Nevis+",
+        "manufacturerName": "Green Hippo",
+        "quantity": 3
+      },
+      {
+        "productId": "596-8002-0102",
+        "productName": "Theatrixx xVision Konverter Glasfaser S2 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 5
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 6
+      }
+    ]
+  },
+  {
+    "id": "K1018",
+    "name": "Stuttgart EventTechnik",
+    "address": "Calwerstraße 7",
+    "city": "Stuttgart",
+    "postalCode": "70173",
+    "country": "DE",
+    "website": "https://stuttgart-eventtechnik.de",
+    "phone": "+49 711 5566778",
+    "email": "info@stuttgart-eventtechnik.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0950",
+        "productName": "Green-GO BCN BEACON Signalleuchte",
+        "manufacturerName": "Green-GO",
+        "quantity": 8
+      },
+      {
+        "productId": "511-5083-3310",
+        "productName": "Stagemaker SL10 508 m1 A20 500 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 4
+      },
+      {
+        "productId": "596-8002-0103",
+        "productName": "Theatrixx xVision Konverter Glasfaser S3 - 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 6
+      },
+      {
+        "productId": "599-3000-0160",
+        "productName": "Green Hippo Hippotizer TAGUS MX Medienserver",
+        "manufacturerName": "Green Hippo",
+        "quantity": 2
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 18
+      }
+    ]
+  },
+  {
+    "id": "K1019",
+    "name": "MedienTechnik Nürnberg",
+    "address": "Breite Gasse 21",
+    "city": "Nürnberg",
+    "postalCode": "90402",
+    "country": "DE",
+    "website": "https://medientechnik-nuernberg.de",
+    "phone": "+49 911 3344556",
+    "email": "kontakt@medientechnik-nuernberg.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0150",
+        "productName": "Green-GO MCXDEXT 24 Kanal Tischerweiterung",
+        "manufacturerName": "Green-GO",
+        "quantity": 5
+      },
+      {
+        "productId": "511-5083-3331",
+        "productName": "Stagemaker SL10 1004 m2 A20 1.000 kg D8 Plus",
+        "manufacturerName": "Stagemaker",
+        "quantity": 2
+      },
+      {
+        "productId": "505-4001-0200",
+        "productName": "MDG Atmosphere ATMe",
+        "manufacturerName": "MDG",
+        "quantity": 1
+      },
+      {
+        "productId": "544-1611-0210",
+        "productName": "Vari-Lite VL2600 SE Wash Movinglight",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 8
+      },
+      {
+        "productId": "596-8002-0500",
+        "productName": "Theatrixx Konverter 4-fach DP1.2 auf Quad 3G-SDI",
+        "manufacturerName": "Theatrixx",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "K1020",
+    "name": "StageEquipment Hamburg GmbH",
+    "address": "Mönckebergstraße 1",
+    "city": "Hamburg",
+    "postalCode": "20095",
+    "country": "DE",
+    "website": "https://stageequipment-hamburg.de",
+    "phone": "+49 40 1122334",
+    "email": "info@stageequipment-hamburg.de",
+    "inventory": [
+      {
+        "productId": "559-3065-0135",
+        "productName": "Green-GO MCX 19\" Rackstation, 1HE",
+        "manufacturerName": "Green-GO",
+        "quantity": 3
+      },
+      {
+        "productId": "498-3200-0065",
+        "productName": "SRS DC6-5-JR 6 Kanal DMX-Lichtstellpult",
+        "manufacturerName": "SRS",
+        "quantity": 6
+      },
+      {
+        "productId": "505-4002-0780",
+        "productName": "MDG Me8",
+        "manufacturerName": "MDG",
+        "quantity": 4
+      },
+      {
+        "productId": "559-3065-0915",
+        "productName": "Green-GO BRIDGEX 19\" Netzwerk-Interface",
+        "manufacturerName": "Green-GO",
+        "quantity": 2
+      },
+      {
+        "productId": "544-1613-0700",
+        "productName": "Vari-Lite VL3600 PROFILE IP Movinglight, Touringversion",
+        "manufacturerName": "Vari-Lite",
+        "quantity": 5
+      },
+      {
+        "productId": "800-5440-0211",
+        "productName": "Sixty82 M29S 4-Punkt Traverse",
+        "manufacturerName": "Sixty82",
+        "quantity": 20
+      }
+    ]
+  }
+]
