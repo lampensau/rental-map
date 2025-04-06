@@ -19,8 +19,7 @@ const config = {
 		}),
 		// Add this for GitHub Pages (replace 'rental-map' with your repo name)
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/rental-map' : '',
-			assets: process.env.NODE_ENV === 'production' ? '/rental-map' : ''
+			base: process.env.NODE_ENV === 'production' ? '/rental-map' : ''
 		}
 	}
 };
