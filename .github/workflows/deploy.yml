@@ -38,11 +38,16 @@ jobs:
 
       - name: Create runtime config
         run: |
+          mkdir -p build/_app
           echo 'window.ENV = {' > build/_app/env-config.js
           echo '  VITE_FIREBASE_API_KEY: "${{ secrets.VITE_FIREBASE_API_KEY }}",' >> build/_app/env-config.js
           echo '  VITE_FIREBASE_AUTH_DOMAIN: "${{ secrets.VITE_FIREBASE_AUTH_DOMAIN }}",' >> build/_app/env-config.js
-          # Add other variables
+          echo '  VITE_FIREBASE_PROJECT_ID: "${{ secrets.VITE_FIREBASE_PROJECT_ID }}",' >> build/_app/env-config.js
+          echo '  VITE_FIREBASE_STORAGE_BUCKET: "${{ secrets.VITE_FIREBASE_STORAGE_BUCKET }}",' >> build/_app/env-config.js
+          echo '  VITE_FIREBASE_MESSAGING_SENDER_ID: "${{ secrets.VITE_FIREBASE_MESSAGING_SENDER_ID }}",' >> build/_app/env-config.js
+          echo '  VITE_FIREBASE_APP_ID: "${{ secrets.VITE_FIREBASE_APP_ID }}"' >> build/_app/env-config.js
           echo '};' >> build/_app/env-config.js
+          cat build/_app/env-config.js
         shell: bash
 
       - name: Deploy
